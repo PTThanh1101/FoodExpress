@@ -22,7 +22,7 @@
                 <h2>Send your query</h2>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="form_container">
                             <div>
                                 <asp:Label ID="lblUserName" runat="server" CssClass="form-control" Text="UserName"></asp:Label>
@@ -37,7 +37,7 @@
                                 </asp:RequiredFieldValidator>
                             </div>
                             <div>
-                                <asp:TextBox ID="txtMessage" runat="server" CssClass="form-control" placeholder="Enter Your Query/Feedback"></asp:TextBox>
+                                <asp:TextBox ID="txtMessage" runat="server" CssClass="form-control" TextMode="MultiLine" placeholder="Enter Your Query/Feedback"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Message is required"
                                      ControlToValidate="txtMessage" ForeColor="Red" Display="Dynamic" SetFocusOnError="true">
                                 </asp:RequiredFieldValidator>
@@ -48,11 +48,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="map_container ">
-                        <div id="googleMap"></div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>

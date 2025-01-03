@@ -26,8 +26,7 @@
                     <table class ="table table-responsive-sm table-bordered table-hover" id="tblInvoice">
                         <thead class="bg-dark text-white">
                             <tr>
-                                <th>Sr.No</th>
-                                <th>Order Number</th>
+                                <th>Sr.No</th>                                
                                 <th>Item Name</th>
                                 <th>Unit Price</th>
                                 <th>Quantity</th>
@@ -39,7 +38,6 @@
                 <ItemTemplate>
                     <tr>
                         <td> <%# Eval("Srno") %> </td>
-                        <td> <%# Eval("OrderNo") %> </td>
                         <td> <%# Eval("Name") %> </td>
                         <td> <%# string.IsNullOrEmpty(Eval("Price").ToString() ) ? "" : Eval("Price") + " VND" %> </td>
                         <td> <%# Eval("Quantity") %> </td>

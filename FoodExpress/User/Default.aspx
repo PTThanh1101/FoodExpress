@@ -19,9 +19,9 @@
                                         </a>
                                     &nbsp;</div>
                                     <div class="detail-box">
-                                        <h5><%# Eval("Name") %></h5>
-                                        <h6>
-                                            <span>20%</span> Off</h6>
+                                        <h6> <span><%# Eval("Name") %></span></h6>
+                                        
+
                                         <a href="Menu.aspx?id=<%# Eval("CategoryId") %>">Order Now
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background: new 0 0 456.029 456.029;" xml:space="preserve">
                                         <g>
